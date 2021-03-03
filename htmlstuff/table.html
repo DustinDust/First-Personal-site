@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to use table in html5</title>
+</head>
+
+<body>
+    <h1>Table in Html 5</h1>
+    <p>In HTML 5 you can create a table using the table tag</p>
+    <p>For example:</p>
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <th><b>My favourite youtuber</b></th>
+                <th><b>Descriptions</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/user/PewDiePie">Pewdiepie</a>
+                </td>
+                <td>
+                    Real name is Felix Kjiellberg, is the most subscribed individual
+                    youtuber. Funny and calm. He was like a father to me
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/user/videogamedunkey">videogamedunkey</a>
+                </td>
+                <td>
+                    Is one of the best comedian on the website. Also a very good game
+                    reviewer.
+                </td>
+            </tr>
+            <td>
+                <a href="https://www.youtube.com/channel/UCr3cBLTYmIK9kY0F_OdFWFQ">Casually explained</a>
+            </td>
+            <td>
+                Top notch sarcasm. My dream is one day be able to tell such jokes with
+                such a straight voice
+            </td>
+        </tbody>
+        <tfoot></tfoot>
+        <caption>
+            <i>My favourite youtuber table</i>
+        </caption>
+    </table>
+    <p>
+        Here table tag is used to make a table. Between that tag is a table. That
+        how the browser understand our code. After that, we've got the (tr) and
+        (td) tag. For each (tr) tag there's gonna be a new row, and the (td) tag
+        defines a new table data, which in this case is a new column. We can
+        separate the table into parts: table head (thead), table body (tbody), and
+        table foot (tfoot). table head is for the header of the table, which in my
+        table is "My favourite youtuber" and "Descriptions". Inside (thead) we
+        would continue to declare (tr) for new table head row and (th) for the
+        header of certain table column. (tfoot) is basically for things like sum
+        up, conclusions, etc.. Table body (tbody) is mainly to separate the head,
+        body, and the foot.
+    </p>
+    <p>basically we have this structure</p>
+    <ul>
+        <li>table</li>
+        <ul>
+            <li>thead</li>
+            <ul>
+                <li>tr</tr>
+                </li>
+                <ul>
+                    <li>th__/th</li>
+                    <li>th__/th</li>
+                </ul>
+                <li>/tr</li>
+            </ul>
+        </ul>
+        <ul>
+            <li>/thead</li>
+        </ul>
+        <ul>
+            <li>tbody</li>
+            <ul>
+                <li>tr</li>
+                <ul>
+                    <li>td__/td</li>
+                    <li>td__/td</li>
+                </ul>
+                <li>/tr</li>
+            </ul>
+        </ul>
+        <ul>
+            <li>/tbody</li>
+        </ul>
+        <ul>
+            <li>tfoot</li>
+        </ul>
+        <ul>
+            <li>/tfoot</li>
+        </ul>
+        <li>/table</li>
+    </ul>
+    <p>      We actually can use td, th, tr for almost every task we need to do with our table. Just that using the right one for the right situation will help the browser understand our code better. Moreover, some tag like th is actually meant to be used as a header tag for table.</p>
+    <p>
+        ...And also, we can use other extra tag like colgroup (for defining a group of column in a table) and caption (for specifying a title of a table). You can find more detailed information about it <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">here</a>
+    </p>
+</body>
+
+</html>
